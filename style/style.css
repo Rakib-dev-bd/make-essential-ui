@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/assets/hero-bg.png);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.9;
+
+  position: relative;
+}
+
+.hero-content {
+  color: #f8f9fa;
+  font-size: 2rem;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  /* padding: 100px 80px; */
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.sub-heading {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.main-heading {
+  font-size: 3rem;
+  /* margin-top: 20px; */
+  margin-bottom: 20px;
+  line-height: 1.2;
+  letter-spacing: -1px;
+}
+
+.description {
+  font-size: 1.2rem;
+  /* margin-top: 20px; */
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+.btn {
+  border-radius: 8px;
+  background: rgb(82, 195, 3);
+  border: none;
+  padding: 10px 20px;
+  color: #bebebe;
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+/* Card section */
+
+.section-card {
+  padding: 50px 0;
+}
+
+.card-heading {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.card-parent {
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  color: #807b7bef;
+}
+
+.card-child {
+  background: #f8f9fa;
+  /* padding: 20px; */
+  /* border-radius: 8px; */
+  margin: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* background-color: red; */
+  border-radius: 20px;
+}
+
+.img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-feature {
+  text-align: center;
+}
+
+.food-name {
+  color: rgb(17, 200, 255);
+  font-weight: 600;
+  display: inline-block;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 5px 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-items-title {
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.card-description-container {
+  padding: 20px;
+}
+
+/* Helper class */
+
+.center-text {
+  text-align: center;
+}
+
+.click {
+  background-color: rgb(200, 255, 255);
+  color: rgba(0, 0, 0, 0.63);
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+/* About section */
+
+.about-content {
+  padding: 50px 0;
+  /* background-color: red; */
+}
+
+.section-about {
+  width: 80%;
+  margin: 0 auto;
+  padding: 50px 0;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+}
+
+.img-container {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.about-heading {
+  font-size: 2rem;
+  /* margin-top: -32px; */
+  margin-bottom: 20px;
+  padding: 10px 0 0 0;
+}
+
+.about-img {
+  width: 100%;
+
+  border-radius: 20px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  /* background-color: #bebebe; */
+  padding: 75px 0;
+
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-media a {
+  /* color: #f8f9fa; */
+  font-size: 2rem;
+}
+
+.sub-description {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.follow {
+  font-size: 24px;
+}
