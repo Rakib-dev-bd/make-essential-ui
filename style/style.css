@@ -7,10 +7,10 @@
 
 .hero {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(/assets/hero-bg.png);
+    url(../assets/hero-bg.png);
   height: 100vh;
   background-size: cover;
-  background-position: center;
+  background-position: center center;
   opacity: 0.9;
 
   position: relative;
@@ -20,7 +20,7 @@
   color: #f8f9fa;
   font-size: 2rem;
   text-align: center;
-  width: 50%;
+  width: 40%;
   margin: 0 auto;
   /* padding: 100px 80px; */
 
@@ -31,20 +31,23 @@
 }
 
 .sub-heading {
-  font-size: 1.5rem;
+  color: #979494;
+  font-size: 1.4rem;
+  font-weight: 600;
   margin-bottom: 20px;
+  letter-spacing: 1px;
 }
 
 .main-heading {
-  font-size: 3rem;
+  font-size: 2.4rem;
   /* margin-top: 20px; */
   margin-bottom: 20px;
   line-height: 1.2;
-  letter-spacing: -1px;
+  letter-spacing: 1px;
 }
 
 .description {
-  font-size: 1.2rem;
+  font-size: 0.8rem;
   /* margin-top: 20px; */
   margin-bottom: 20px;
   letter-spacing: 1px;
@@ -56,8 +59,8 @@
   border: none;
   padding: 10px 20px;
   color: #bebebe;
-  font-weight: 500;
-  font-size: 18px;
+  font-weight: 600;
+  font-size: 12px;
   margin-top: 20px;
   cursor: pointer;
 }
@@ -78,11 +81,14 @@
   width: 80%;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 420px);
   color: #807b7bef;
+  justify-content: center;
+  align-items: center;
 }
 
 .card-child {
+  /* width: 420px; */
   background: #f8f9fa;
   /* padding: 20px; */
   /* border-radius: 8px; */
@@ -112,10 +118,14 @@
 }
 
 .card-items-title {
-  font-size: 32px;
+  color: black;
+  font-size: 24px;
   font-weight: 800;
+  margin-bottom: 12px;
 }
-
+.card-items-description {
+  font-size: 12px;
+}
 .card-description-container {
   padding: 20px;
 }
@@ -127,8 +137,8 @@
 }
 
 .click {
-  background-color: rgb(200, 255, 255);
-  color: rgba(0, 0, 0, 0.63);
+  background-color: rgb(93, 206, 0);
+  color: #fff;
   margin-bottom: 20px;
   font-weight: 600;
 }
